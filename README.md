@@ -18,8 +18,21 @@ conda env create --file requirements.yml
 
 ## Usage
 To train this project:
+```
+$  python training.py -tr Training-Concepts.txt -vl Validation-Concepts.txt -c stringconcepts.csv --batch_size 32 -ep 1 -lr 1e-5 -imgz 150
+```
+To test the model on dataset:
+```
+python testing.py -tr Training-Concepts.txt -c stringconcepts.csv --batch_size 1
+```
+To evaluate the model on the dataset:
+```
+python evaluate-f1.py /path/to/candidate/file /path/to/ground-truth/file
+```
+To calculate accuracy between predicted result and ground truth:
+```
+python calculate_accuracy.py -r results.csv -gt groundtruth.csv
+```
 
-```
-$ python training.py 
-```
+
 
