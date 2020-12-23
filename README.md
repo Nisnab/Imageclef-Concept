@@ -16,5 +16,10 @@ Use the package manager [conda](https://anaconda.org/anaconda/conda) to install 
 conda env create --file requirements.yml
 ```
 
-#Usage
+## Usage
+To train this project:
+
+```
+$ python training.py 
+```
 
