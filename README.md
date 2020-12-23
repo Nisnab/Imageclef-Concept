@@ -1,6 +1,10 @@
 # Concept Detection in Medical images using Xception model
 In this repository, we implemented our paper(http://ceur-ws.org/Vol-2696/paper_109.pdf) used to solve the ImageClef Concept dection task 2020. 
 
+## Table of contents
+* [Task Description](#Task Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
 ## Task Description
 The dataset consist of 56,629 Training images and 14159 validation images.
 The test dataset consists of 10,000 images.
