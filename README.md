@@ -9,4 +9,11 @@ This code help me and my team win 5th Position in Imageclef concept detection ta
 All other filenames are self-expalnatory. 
 Please let me know by opening any issues  in this repository if you require any assistance or insight.
 
+## Installation
+
+Use the package manager [conda](https://anaconda.org/anaconda/conda) to install requirements.
+
+```bash
+conda env create --file requirements.yml
+```
 
