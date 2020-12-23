@@ -2,7 +2,7 @@
 In this repository, we implemented our paper(http://ceur-ws.org/Vol-2696/paper_109.pdf) used to solve the ImageClef Concept dection task 2020. 
 
 ## Table of contents
-* [Task_Description](#Task Description)
+* [Task Description](#Task_Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
 ## Task Description
