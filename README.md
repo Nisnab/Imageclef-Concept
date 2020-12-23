@@ -19,13 +19,6 @@ Use the package manager [conda](https://anaconda.org/anaconda/conda) to install 
 ```bash
 conda env create --file requirements.yml
 ```
-#Folder Structure
-1. Training-set
-   -Roco1.jpeg
-2. Validation-set
-  -Roco2.jpg
-3.Test-set
-  -Roco3.jpeg
 
 ## Usage
 To train this project:
