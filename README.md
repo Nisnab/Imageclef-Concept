@@ -29,14 +29,15 @@ Folder structure
 │
 ├── Test-set             - this folder contains Test images.
 │   └── ROCO_CLEF_41322.jpeg
-│   
+│   └── -------------------- 
+│
 ├──  training.py         - this file is used for training.
 │   
 ├──  testing.py         - this file is used for testing.
 │   
-├──  evaluate-f1.py         - this file is used for evaluating F1 score.
-│   
-├──  calculate_accuracy.py         - this file is used for calculating accuracy score.
+├──  evaluate-f1.py     - this file is used for evaluating F1 score.
+│  
+└── calculate_accuracy.py - this file is used for calculating accuracy score.
 
 ```
 ## Installation
