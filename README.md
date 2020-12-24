@@ -30,16 +30,13 @@ Folder structure
 ├── Test-set             - this folder contains Test images.
 │   └── ROCO_CLEF_41322.jpeg
 │   
-├──  mains              - here's the main(s) of your project (you may need more than one main).
-│    └── example_main.py  - here's an example of main that is responsible for the whole pipeline.
-
-│  
-├──  data _loader  
-│    └── data_generator.py  - here's the data_generator that is responsible for all data handling.
-│ 
-└── utils
-     ├── logger.py
-     └── any_other_utils_you_need
+├──  training.py         - this file is used for training.
+│   
+├──  testing.py         - this file is used for testing.
+│   
+├──  evaluate-f1.py         - this file is used for evaluating F1 score.
+│   
+├──  calculate_accuracy.py         - this file is used for calculating accuracy score.
 
 ```
 ## Installation
