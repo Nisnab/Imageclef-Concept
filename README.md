@@ -12,6 +12,36 @@ The task was to predict concepts in medical Images
 ```bash
 ROCO_CLEF_41341 C0033785;C0035561
 ```
+Folder structure
+--------------
+
+```
+├──  Training-set       - this folder contains training images.
+│   ├── ROCO_CLEF_41341.jpeg
+│   └── ROCO_CLEF_41342.jpeg
+│   └── --------------------
+│
+│
+├── Validation-set      - this folder contains Validation images.
+│   ├── ROCO_CLEF_41345.jpeg
+│   └── ROCO_CLEF_41322.jpeg
+│   └── --------------------  
+│
+├── Test-set             - this folder contains Test images.
+│   └── ROCO_CLEF_41322.jpeg
+│   
+├──  mains              - here's the main(s) of your project (you may need more than one main).
+│    └── example_main.py  - here's an example of main that is responsible for the whole pipeline.
+
+│  
+├──  data _loader  
+│    └── data_generator.py  - here's the data_generator that is responsible for all data handling.
+│ 
+└── utils
+     ├── logger.py
+     └── any_other_utils_you_need
+
+```
 ## Installation
 
 Use the package manager [conda](https://anaconda.org/anaconda/conda) to install requirements.
