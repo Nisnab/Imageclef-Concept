@@ -30,8 +30,9 @@ Folder structure
 ├── Test-set             - this folder contains Test images.
 │   └── ROCO_CLEF_41322.jpeg
 │   └── -------------------- 
+│── Python-scripts      - this folder contains  python files(can be run driectly in Jupyter notebook/IDE)
 │
-├──  training.py         - this file is used for training.
+├──  training.py        - this file is used for training.
 │   
 ├──  testing.py         - this file is used for testing.
 │   
